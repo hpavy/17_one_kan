@@ -1,0 +1,38 @@
+{
+    "nb_epoch": 2000,
+    "save_rate": 50,
+    "weight_data": 1,
+    "weight_pde": 1,
+    "batch_size": 10000,
+    "nb_points_pde": 1000000,
+    "Re": 100,
+    "lr_init": 0.001,
+    "gamma_scheduler": 0.999,
+    "hiden_layer": [
+        3,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        3
+    ],
+    "grid_range": [
+        -2,
+        2.5
+    ],
+    "grid_size": 5,
+    "n_pde_test": 5000,
+    "n_data_test": 5000,
+    "nb_points_axes": 8,
+    "x_min": 0.02,
+    "x_max": 0.2,
+    "y_min": -0.06,
+    "y_max": 0.06,
+    "t_min": 5.5,
+    "t_max": 8,
+    "transfert_learning": "None"
+}
